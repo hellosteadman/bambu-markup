@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from distutils.core import setup
+from os import path
 
 setup(
 	name = 'bambu-markup',
@@ -15,8 +16,8 @@ setup(
 		'docutils'
 	],
 	packages = [
-		'bambu.markup',
-		'bambu.markup.templatetags'
+		'bambu_markup',
+		'bambu_markup.templatetags'
 	],
 	classifiers = [
 		'Development Status :: 4 - Beta',
