@@ -8,7 +8,7 @@ setup(
 	description = 'Replacements for Django\'s Markdown and reStructuredText support',
 	author = 'Steadman',
 	author_email = 'mark@steadman.io',
-	url = 'http://pypi.python.org/pypi/bambu-markup',
+	url = 'https://github.com/iamsteadman/bambu-markup',
     long_description = open(path.join(path.dirname(__file__), 'README')).read(),
 	install_requires = [
 		'Django>=1.4',
