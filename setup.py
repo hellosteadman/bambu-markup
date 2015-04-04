@@ -11,7 +11,7 @@ setup(
 	url = 'https://github.com/iamsteadman/bambu-markup',
     long_description = open(path.join(path.dirname(__file__), 'README')).read(),
 	install_requires = [
-		'Django>=1.4',
+		'Django>=1.8',
 		'markdown',
 		'docutils'
 	],
