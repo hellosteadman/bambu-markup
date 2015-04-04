@@ -4,7 +4,7 @@ from os import path
 
 setup(
 	name = 'bambu-markup',
-	version = '2.0',
+	version = '3.0',
 	description = 'Replacements for Django\'s Markdown and reStructuredText support',
 	author = 'Steadman',
 	author_email = 'mark@steadman.io',
